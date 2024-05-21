@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Transition</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .transition-transform {
+    transition: transform 1s;
+  }
+</style>
+</head>
+<body class="flex flex-col items-center">
+
+  <div class="scale bg-blue-600 text-white text-center text-2xl my-5 mx-auto w-36 h-36 leading-[150px] transition-transform hover:scale-110">scale me</div>
+  <div class="translate bg-blue-600 text-white text-center text-2xl my-5 mx-auto w-36 h-36 leading-[150px] transition-transform hover:translate-x-80">translate me</div>
+  <div class="rotate bg-blue-600 text-white text-center text-2xl my-5 mx-auto w-36 h-36 leading-[150px] transition-transform hover:rotate-180">rotate me</div>
+  <div class="skew bg-blue-600 text-white text-center text-2xl my-5 mx-auto w-36 h-36 leading-[150px] transition-transform hover:skew-x-12">skew me</div>
+
+</body>
+</html>
